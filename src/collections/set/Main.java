@@ -80,7 +80,6 @@ public class Main {
 
 		StopWatch linkedHashSetWatch = new StopWatch("add linkedHashSet");
 		linkedHashSetWatch.start();
-		linkedHashSetWatch.start();
 		for (int i = 0; i < size; i++) {
 			linkedHashSet.add(data + i);
 		}
